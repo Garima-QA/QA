@@ -1,9 +1,10 @@
 package practice;
-//Customised unchecked exception using throw keyword.
+//Customized unchecked exception using throw keyword.
 
 class YoungAgeException extends RuntimeException {
+	
 	YoungAgeException( String msg){
-	   
+	   super(msg);
 	    }
 }
 
